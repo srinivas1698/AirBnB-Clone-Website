@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 19;
+    font-family: 'Poppins', sans-serif;
+}
+.Title{
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.Info{
+    font-size:16 ;
+    margin-left: 20px;
+    font-weight: 300;
+    height: 56px;
+    width: 320px;
+}
+nav{
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.grp_photo{
+    max-width: 500px;
+    padding: 20px;
+}
+.logo_photo{
+    max-width: 100px;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+
+}
+.Card_photo{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Country{
+    font-weight: lighter;
+}
+.Price{
+    font-weight: bold;
+}
+.Card_rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.star_logo{
+   height: 14px;
+}
+.bold{
+    font-weight: bold;
+
+}
+.gray{
+    color: #5b5959;
+}
+section{
+    padding: 20px;
+}
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.price_tag{
+    position: absolute;
+    top: 350px;
+    left: 0px;
+}
